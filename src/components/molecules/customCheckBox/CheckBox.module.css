@@ -1,0 +1,80 @@
+.default {
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.default > * {
+	user-select: none;
+}
+.p1-default {
+	background-color: none;
+	border: 2px solid rgba(255, 112, 102, 1);
+}
+.p1-hover {
+	background-color: rgba(255, 112, 102, 0.25);
+}
+.p1-checked {
+	background-color: rgba(255, 112, 102, 1);
+	border: none;
+}
+.p2-default {
+	background-color: none;
+	border: 2px solid rgba(254, 154, 20, 1);
+}
+.p2-hover {
+	background-color: rgba(254, 154, 20, 0.25);
+}
+.p2-checked {
+	background-color: rgba(254, 154, 20, 1);
+	border: none;
+}
+.p3-default {
+	background-color: none;
+	border: 2px solid rgba(82, 151, 254, 1);
+}
+.p3-hover {
+	background-color: rgba(82, 151, 254, 0.25);
+}
+.p3-checked {
+	background-color: rgba(82, 151, 254, 1);
+	border: none;
+}
+.p4-default {
+	background-color: none;
+	border: 1px solid rgba(127, 127, 127, 1);
+}
+.p4-hover {
+	background-color: rgba(127, 127, 127, 0.25);
+}
+.p4-checked {
+	background-color: rgba(127, 127, 127, 1);
+	border: none;
+}
+
+.done-default {
+	font-size: 12px;
+	visibility: hidden;
+}
+.p1-done-hover {
+	color: rgb(255, 112, 102);
+	visibility: visible;
+}
+.p2-done-hover {
+	color: rgb(254, 154, 20);
+	visibility: visible;
+}
+.p3-done-hover {
+	color: rgb(82, 151, 254);
+	visibility: visible;
+}
+.p4-done-hover {
+	color: rgb(127, 127, 127);
+	visibility: visible;
+}
+.done-checked {
+	color: rgb(255, 255, 255);
+	visibility: visible;
+}
